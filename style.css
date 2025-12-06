@@ -1,7 +1,7 @@
 /* General page styling */
 body {
-    font-family: Arial, sans-serif;
-    background: #f2f2f2;
+    font-family: 'Roboto', sans-serif; 
+    background: #192a56; /* Dark Blue Background */
     margin: 0;
     padding: 0;
 }
@@ -22,7 +22,7 @@ h2, h3 {
     color: #333;
 }
 
-/* Input fields */
+/* Input fields (No changes needed for input appearance) */
 input[type="text"],
 input[type="password"],
 input[type="email"],
@@ -35,27 +35,29 @@ select {
     box-sizing: border-box;
 }
 
-/* Buttons */
+/* ➡️ Buttons (Updated to Gold) */
 button, input[type="submit"] {
     width: 100%;
     padding: 10px;
-    background: #3498db;
-    color: white;
+    background: #ffc107; /* Gold/Yellow Accent */
+    color: #192a56; /* Dark text on Gold button for contrast */
     border: none;
     border-radius: 5px;
     cursor: pointer;
     font-size: 15px;
 }
 
+/* ➡️ Button Hover (Updated to Darker Gold) */
 button:hover,
 input[type="submit"]:hover {
-    background: #2980b9;
+    background: #e0a800; /* Darker Gold for hover effect */
+    color: white; /* Optional: change text color on hover for effect */
 }
 
-/* Links */
+/* ➡️ Links (Updated to Gold) */
 a {
     text-decoration: none;
-    color: #3498db;
+    color: #ffc107; /* Gold/Yellow Accent */
 }
 
 a:hover {
@@ -72,9 +74,10 @@ table {
     overflow: hidden;
 }
 
+/* ➡️ Table Header (Updated to Gold) */
 th {
-    background: #3498db;
-    color: white;
+    background: #ffc107; /* Gold/Yellow Accent */
+    color: #192a56; /* Dark text on Gold header for contrast */
     padding: 12px;
 }
 
@@ -83,15 +86,16 @@ td {
     border-bottom: 1px solid #ddd;
 }
 
-/* Hover effect */
+/* ➡️ Table Hover effect (Updated to Darker Background) */
 tr:hover {
-    background: #f1f1f1;
+    background: #2c3e50; /* Subtle Darker Blue hover for a sophisticated look */
+    color: white; /* Changed row text color for visibility on dark hover */
 }
 
-/* Action links (update/delete) */
+/* ➡️ Action links (update/delete) - Updated to Gold */
 .action-btns a {
     margin-right: 10px;
-    color: #2980b9;
+    color: #ffc107; /* Gold/Yellow Accent */
     font-weight: bold;
 }
 
@@ -104,5 +108,5 @@ tr:hover {
     text-align: center;
     display: block;
     margin-top: 15px;
-    color: #555;
+    color: #ccc; /* Lightened text for better visibility on dark blue background */
 }
