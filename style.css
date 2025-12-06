@@ -1,0 +1,108 @@
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Centered container */
+.container {
+    width: 400px;
+    margin: 60px auto;
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+/* Page titles */
+h2, h3 {
+    text-align: center;
+    color: #333;
+}
+
+/* Input fields */
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0 15px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+/* Buttons */
+button, input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+button:hover,
+input[type="submit"]:hover {
+    background: #2980b9;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+    color: #3498db;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Table styling */
+table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: white;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+th {
+    background: #3498db;
+    color: white;
+    padding: 12px;
+}
+
+td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+/* Hover effect */
+tr:hover {
+    background: #f1f1f1;
+}
+
+/* Action links (update/delete) */
+.action-btns a {
+    margin-right: 10px;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.action-btns a:hover {
+    text-decoration: underline;
+}
+
+/* Small footer link (e.g., Register, Logout) */
+.footer-link {
+    text-align: center;
+    display: block;
+    margin-top: 15px;
+    color: #555;
+}
