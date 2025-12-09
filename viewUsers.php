@@ -18,7 +18,7 @@ $result = mysqli_query($conn,$sql);
 </head>
 <body>
 
-<h2 style="text-align:center; margin-top:30px;">Users List</h2>
+<h2 style="text-align:center; margin-top:30px; color:#ffc107;">Users List</h2>
 
 <table>
 <tr>
