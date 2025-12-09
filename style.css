@@ -19,7 +19,7 @@ body {
 /* Page titles */
 h2, h3 {
     text-align: center;
-    color: #333;
+    color: #ffffff;
 }
 
 /* Input fields (No changes needed for input appearance) */
@@ -109,4 +109,16 @@ tr:hover {
     display: block;
     margin-top: 15px;
     color: #ccc; /* Lightened text for better visibility on dark blue background */
+}
+
+/* Logo styling */
+.logo-container {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.logo {
+    width: 120px;      /* Adjust size if needed */
+    height: auto;
+    margin-bottom: 20px;
 }

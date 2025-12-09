@@ -27,6 +27,11 @@ if(isset($_POST['submit'])) {
 </head>
 <body>
 
+<!-- LOGO -->
+<div class="logo-container">
+    <img src="uthmlogo.webp" class="logo">
+</div>
+
 <div class="container">
     <h2>Register</h2>
 

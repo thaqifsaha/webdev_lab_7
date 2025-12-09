@@ -25,6 +25,11 @@ if(isset($_POST['login'])){
 </head>
 <body>
 
+<!-- LOGO -->
+<div class="logo-container">
+    <img src="uthmlogo.webp" class="logo">
+</div>
+
 <div class="container">
     <h2>Login</h2>
 
